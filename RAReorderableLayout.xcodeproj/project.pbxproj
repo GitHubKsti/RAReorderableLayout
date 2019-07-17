@@ -99,7 +99,7 @@
 				TargetAttributes = {
 					DFF5E74E1B8F05CE003726B0 = {
 						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -246,7 +246,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -264,7 +265,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yo-woo.RAReorderableLayout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
